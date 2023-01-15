@@ -1,0 +1,43 @@
+.feature {
+  padding: 105px 42px 100px 85px;
+}
+
+.feature__title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.25rem;
+  line-height: 2.23rem;
+  color: #b70021;
+}
+
+.feature__list {
+  width: 1073px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feature__list-item dt {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  color: #fff;
+}
+
+.feature__list-item dd.feature__list-dd {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 6rem;
+  line-height: 7rem;
+  color: #fff;
+  span {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+}
+
+.feature__list-item dd {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  color: #b70021;
+}

@@ -1,0 +1,33 @@
+.video {
+  margin-bottom: 100px;
+}
+.video__box {
+  min-height: 400px;
+  background-image: url('../images/video.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.video__box-inner {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video__box-btn {
+  cursor: pointer;
+  svg {
+    fill: #fff;
+    transition: fill 0.3s ease-in-out;
+  }
+}
+
+.video__box-btn:hover svg {
+  fill: #b70021;
+}
+

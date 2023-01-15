@@ -1,0 +1,94 @@
+// style default
+html, body {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	line-height: 1;
+	font-size: 16px;
+	scroll-behavior: smooth;
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: 400;
+}
+
+main {
+	flex-grow: 1;
+}
+
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: inherit;
+}
+
+*:focus-visible {
+outline: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+	max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+// end style default
+.container {
+	width: 1230px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+header, main, footer {
+	width: 1600px;
+	margin: 0 auto;
+}
+
+main {
+	background-color: #0d0d0d;
+}
+
+.btn {
+	padding: 30px 61px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+/* scroll */
+.stop__scroll {
+  overflow: hidden;
+}
+
+@import 'fonts';
+@import 'header';
+@import 'feature';
+@import 'video';
+@import 'speed';
+@import 'equipment';
+@import 'design';
+@import 'footer';
+@import 'overlay';
+

@@ -1,0 +1,34 @@
+.speed {
+  margin-bottom: 100px;
+}
+
+.speed__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 58px;
+}
+.speed__descr {
+  flex-basis: 50%;
+}
+.speed__title {
+  margin-bottom: 101px;
+  font-size: 2.25rem;
+  line-height: 2.23rem;
+  color: #b70021;
+}
+.speed__content {
+  width: 303px;
+  padding-bottom: 145px;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  color: #fff;
+}
+.speed__img {
+  flex-basis: 50%;
+  min-height: 400px;
+  background-image: url('../images/speed.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
