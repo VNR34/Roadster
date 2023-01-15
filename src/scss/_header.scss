@@ -70,8 +70,8 @@
   height: 90px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 96px;
-  line-height: 112px;
+  font-size: 6rem;
+  line-height: 7rem;
   color: #fff;
   margin-bottom: 40px;
 }
@@ -135,10 +135,10 @@
   background-image: url('../images/slider_1.png');
 }
 .header__slider-2 {
-  background: url('../images/slider_2.png');
+  background-image: url('../images/slider_2.png');
 }
 .header__slider-3 {
-  background: url('../images/slider_3.png');
+  background-image: url('../images/slider_3.png');
 }
 
 .header__menu {

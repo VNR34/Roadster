@@ -10,7 +10,7 @@
 }
 .equipment__img {
   flex-basis: 50%;
-  height: 400px;
+  min-height: 400px;
   background-image: url('../images/feature.jpg');
   background-position: center;
   background-repeat: no-repeat;

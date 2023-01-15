@@ -77,9 +77,8 @@ main {
 	border: 1px solid #fff;
 }
 
-/* scroll */
 .stop__scroll {
-  overflow: hidden;
+	overflow: hidden;
 }
 
 @import 'fonts';
@@ -91,4 +90,6 @@ main {
 @import 'design';
 @import 'footer';
 @import 'overlay';
+@import 'media';
+
 
